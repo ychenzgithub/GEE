@@ -96,7 +96,7 @@ exports.foo = function(arg) {
 exports.bar = ee.Date(Date.now());
 
 
-// use the module by require
+// use the module by require (users/homeFolder/repo:path/to/file)
 var Foo = require('users/username/default:Modules/FooModule.js');
 print(Foo.doc);
 print(Foo.foo('world'));
