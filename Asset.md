@@ -27,8 +27,6 @@ earthengine mv source destimation                            // move asset
 earthengine set_project foo-project                          // set project
 ```
 #### Upload from google cloud storage
-So far, you need to follow LocalDrive –> Google Cloud Storage (bucket) –> GEE (asset) to upload local data to GEE asset. 
-
 __earthengine upload__ can be used to move data from cloud storage to GEE asset.
 ```
 earthengine upload image --asset_id=users/username/asset_id gs://bucket/image.tif  // upload from google cloud storage to assets
@@ -36,6 +34,8 @@ earthengine upload table --asset_id=users/username/myUploadedShapefile gs://buck
 ```
 
 ### Google cloud (gcloud)
+So far, you need to follow LocalDrive –> Google Cloud Storage (bucket) –> GEE (asset) to upload local data to GEE asset. 
+
 #### Authentication
 Most of the operations you perform in Cloud Storage must be [authenticated](https://cloud.google.com/storage/docs/authentication).
 ```
