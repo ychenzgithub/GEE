@@ -11,6 +11,7 @@
      * [List of GEE data](https://developers.google.com/earth-engine/datasets/)  
      * [List of GEE vector data](https://developers.google.com/earth-engine/vector_datasets)     
 * [GEE API on github](https://github.com/google/earthengine-api): JavaScript and Python wrapper functions for the Earth Engine API
+* [Git repositories on earthengine](https://earthengine.googlesource.com/): A list of GEE shared codes (can be downloaded using Git)
 * [GEE reference paper](https://www.sciencedirect.com/science/article/pii/S0034425717302900):
 _Gorelick et al (RSE, 2017), Google Earth Engine: Planetary-scale geospatial analysis for everyone_
       
